@@ -1,8 +1,8 @@
-# 🏠 Sweet Home Finder
+#Sweet Home Finder
 
 A full-stack web application for pet adoption, connecting shelters with potential pet adopters through an intelligent matching system.
-
-## 🌟 Features
+URL: https://shelter-homee.vercel.app
+##  Features
 
 - **User Dashboard**: Browse available pets for adoption
 - **Shelter Dashboard**: Manage pets and adoption applications
@@ -28,7 +28,7 @@ A full-stack web application for pet adoption, connecting shelters with potentia
 - JWT Authentication
 - bcrypt for password hashing
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v14+)
@@ -108,47 +108,6 @@ Visit `http://localhost:3000` to see the app! 🎉
 For detailed setup, deployment, and troubleshooting instructions, see:
 - **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** - Complete deployment guide for various platforms
 
-## 🗂️ Project Structure
-
-```
-Sweet-home-Finder/
-├── backend/
-│   ├── config/          # Database configuration
-│   ├── controllers/     # Route controllers
-│   ├── migrations/      # Database migrations
-│   ├── models/          # Sequelize models
-│   ├── routes/          # API routes
-│   ├── seeders/         # Database seeders
-│   ├── .env            # Environment variables
-│   ├── server.js       # Express server entry point
-│   └── package.json
-├── frontend/
-│   ├── public/         # Static files
-│   ├── src/
-│   │   ├── components/ # React components
-│   │   ├── Pages/      # Page components
-│   │   ├── assets/     # Images and assets
-│   │   ├── utils/      # Utility functions
-│   │   └── App.jsx     # Main App component
-│   ├── .env           # Frontend environment variables
-│   └── package.json
-├── DEPLOYMENT_GUIDE.md
-├── setup.sh           # Linux/Mac setup script
-└── setup.bat          # Windows setup script
-```
-
-## 🔐 Environment Variables
-
-### Backend (.env)
-```env
-DB_USER=postgres
-DB_HOST=localhost
-DB_DATABASE=sweet_home_finder
-DB_PASSWORD=your_password
-DB_PORT=5432
-PORT=5001
-JWT_SECRET=your_jwt_secret
-```
 
 ### Frontend (.env)
 ```env
@@ -222,15 +181,12 @@ See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) for step-by-step instructions.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is open source and available under the MIT License.
-
-## 👥 Authors
+##  Authors
 
 - Riya Mehta - [@riyagmehta](https://github.com/riyagmehta)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Chakra UI for the component library
 - Socket.IO for real-time communication
