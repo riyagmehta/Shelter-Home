@@ -16,7 +16,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-      origin: "*", // Adjust this to match your client in production
+      origin: ["https://shelter-home.onrender.com", "http://localhost:3000", "*"], // Allow all for now
       methods: ["GET", "POST"]
   }
 });
@@ -45,7 +45,10 @@ io.on('connection', (socket) => {
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: "*", // Allow all origins for now
+  credentials: true
+}));
 
 // Routes setup
 app.use('/api/chat', chatRoutes);
